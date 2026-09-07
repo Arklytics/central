@@ -1,3 +1,9 @@
+<?php
+
+$currentPage = basename($_SERVER['PHP_SELF']);
+
+?>
+
 <nav class="navbar navbar-expand-lg ark-navbar" id="mainNavbar">
 
     <div class="container-fluid px-lg-5">
@@ -55,7 +61,7 @@
                 <li class="nav-item">
 
                     <a
-                        class="nav-link ark-nav-link active"
+                        class="nav-link ark-nav-link<?php echo $currentPage === 'index.php' ? ' active' : ''; ?>"
                         href="index.php">
 
                         Home
@@ -294,7 +300,7 @@
                 <li class="nav-item">
 
                     <a
-                        class="nav-link ark-nav-link"
+                        class="nav-link ark-nav-link<?php echo $currentPage === 'solutions.php' ? ' active' : ''; ?>"
                         href="solutions.php">
 
                         Solutions
@@ -309,7 +315,7 @@
                 <li class="nav-item">
 
                     <a
-                        class="nav-link ark-nav-link"
+                        class="nav-link ark-nav-link<?php echo $currentPage === 'insight.php' ? ' active' : ''; ?>"
                         href="insight.php">
 
                         Insights
@@ -324,7 +330,7 @@
                 <li class="nav-item">
 
                     <a
-                        class="nav-link ark-nav-link"
+                        class="nav-link ark-nav-link<?php echo $currentPage === 'contact.php' ? ' active' : ''; ?>"
                         href="contact.php">
 
                         Contact
@@ -425,3 +431,33 @@
     </div>
 
 </nav>
+
+<script>
+
+    (function () {
+
+        const navbar = document.getElementById("mainNavbar");
+
+        if (!navbar) {
+            return;
+        }
+
+        const updateNavbar = function () {
+
+            navbar.classList.toggle(
+                "scrolled",
+                window.scrollY > 45
+            );
+        };
+
+        updateNavbar();
+
+        window.addEventListener(
+            "scroll",
+            updateNavbar,
+            { passive: true }
+        );
+
+    }());
+
+</script>

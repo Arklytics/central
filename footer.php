@@ -29,9 +29,10 @@
                          you can use the image instead -->
 
                     <img
-                        src="images/logo.png"
+                        src="images/arklytics-labs-logo.png"
                         alt="Arklytics"
-                        class="footer-logo">
+                        class="footer-logo"
+                        style="width: 200px; height: auto; background: #ffffff; padding: 8px 12px; border-radius: 6px;">
 
 
                 </a>
@@ -578,7 +579,7 @@
 
                     © <?php echo date("Y"); ?>
 
-                    Arklytics Innovations & Solutions.
+                    Arklytics Labs LLP.
 
                     All Rights Reserved.
 

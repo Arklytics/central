@@ -16,6 +16,8 @@ $pageTitle = "Insights | Arklytics";
     <title>
         <?php echo $pageTitle; ?>
     </title>
+    <link rel="icon" type="image/png" href="images/arklytics-favicon.png">
+
 
 
     <!-- =====================================================

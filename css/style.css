@@ -256,15 +256,37 @@ transform:scale(1.15);
 /* SCROLLED */
 
 .ark-navbar.scrolled {
-
     min-height: 50px;
 
-    background:
-        rgba(255,255,255,.97);
+    background: #ffffff !important;
+
+    color: #182230;
 
     box-shadow:
         0 10px 35px
-        rgba(15,23,42,.08);
+        rgba(15, 23, 42, .12);
+}
+
+
+.ark-navbar.scrolled .ark-nav-link,
+.ark-navbar.scrolled .ark-socials a,
+.ark-navbar.scrolled .ark-login {
+
+    color: #182230 !important;
+}
+
+
+.ark-navbar.scrolled .ark-nav-link:hover,
+.ark-navbar.scrolled .ark-socials a:hover,
+.ark-navbar.scrolled .ark-login:hover {
+
+    color: #087ea4 !important;
+}
+
+
+.ark-navbar.scrolled .ark-socials {
+
+    border-color: #e4e8ed;
 }
 
 
@@ -288,7 +310,7 @@ transform:scale(1.15);
 .ark-logo {
 
     width:
-        150px;
+        220px;
 
     height:
         auto;

@@ -183,6 +183,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>
         <?php echo $pageTitle; ?>
     </title>
+    <link rel="icon" type="image/png" href="images/arklytics-favicon.png">
+
 
 
     <!-- Bootstrap -->

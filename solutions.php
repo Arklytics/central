@@ -13,6 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Solutions | Elldy AI Data Intelligence | Arklytics</title>
+    <link rel="icon" type="image/png" href="images/arklytics-favicon.png">
+
     <meta name="description" content="Discover Elldy, the AI-powered Data Intelligence and Business Intelligence platform by Arklytics. Connect data, automate preparation, build dashboards, discover insights and monitor business performance.">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">

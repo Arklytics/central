@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Elldy | AI-Powered Data Intelligence & Business Intelligence Platform</title>
+    <title>Arklytics Labs | Where Intelligence Takes Shape</title>
+
+    <link rel="icon" type="image/png" href="images/arklytics-favicon.png">
 
     <meta name="description"
           content="Elldy is a cloud-based Data Intelligence and Business Intelligence platform for connecting data, building dashboards, analyzing business performance, detecting anomalies and generating intelligent insights.">
@@ -153,7 +155,7 @@
             padding: 11px 0;
 
             background:
-                rgba(5,8,17,.88);
+                #ffffff;
 
             backdrop-filter:
                 blur(20px);
@@ -204,7 +206,7 @@
         .navbar-nav .nav-link {
 
             color:
-                rgba(255,255,255,.70)
+                #182230
                 !important;
 
             font-size: 13px;
@@ -221,7 +223,7 @@
 
         .navbar-nav .nav-link:hover {
 
-            color: #fff !important;
+            color: #087ea4 !important;
         }
 
 
@@ -7025,9 +7027,10 @@
             <div class="col-lg-5">
 
                 <div class="footer-brand">
-
-                    Elldy<span class="brand-dot"></span>
-
+                    <img src="images/arklytics-labs-logo.png"
+                        alt="Arklytics Labs"
+                        class="footer-logo"
+                        style="width: 200px; height: auto; background: #ffffff; padding: 8px 12px; border-radius: 6px;">
                 </div>
 
 
@@ -7046,7 +7049,7 @@
 
                     <i class="bi bi-patch-check-fill"></i>
 
-                    A product of Arklytics Solutions &amp; Innovations
+                    A product of Arklytics Labs
 
                 </div>
 
@@ -7203,7 +7206,7 @@
                 <span>
 
                     © <?php echo date("Y"); ?>
-                    Elldy — Arklytics Solutions & Innovations.
+                    Elldy — Arklytics Labs LLP.
                     All rights reserved.
 
                 </span>
