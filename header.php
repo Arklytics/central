@@ -1,53 +1,426 @@
-<!-- Navbar with Social Media Icons -->
-    <nav class="navbar navbar-expand-lg shadow" style="background: linear-gradient(90deg, #ffffff, #03bbf8);">
-        <div class="container-fluid">
-            <!-- Brand -->
-            <a class="navbar-brand d-flex align-items-center" href="index.php">
-                <img src="images/logo.png" width="160px" alt="" class="img-fluid rounded">
-            </a>
+<nav class="navbar navbar-expand-lg ark-navbar" id="mainNavbar">
 
-            <!-- Navbar Toggler -->
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="menu-text d-lg-none text-white fw-bold">Menu</span>
-            </button>
+    <div class="container-fluid px-lg-5">
 
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-semibold" href="index.php">Home</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-semibold" href="solutions.php">Solutions</a>
-                    </li>
+        <!-- =================================================
+             BRAND
+        ================================================== -->
 
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-semibold" href="insight.php">Insights</a>
-                    </li>
+        <a class="navbar-brand ark-brand" href="index.php">
 
-                    <li class="nav-item">
-                        <a class="nav-link active text-white fw-semibold" aria-current="page" href="contact.php">Contact
-                            Us</a>
-                    </li>
-                </ul>
+            <img
+                src="images/logo.png"
+                alt="Arklytics"
+                class="ark-logo">
 
-                <!-- Social Media Icons -->
-                <div class="d-flex align-items-center gap-3">
-                    <a href="https://www.whatsapp.com" target="_blank" class="text-white fs-5"><i
-                            class="bi bi-whatsapp"></i></a>
-                    <a href="https://www.facebook.com" target="_blank" class="text-white fs-5"><i
-                            class="bi bi-facebook"></i></a>
-                    <a href="https://www.twitter.com" target="_blank" class="text-white fs-5"><i
-                            class="bi bi-twitter"></i></a>
-                    <a href="https://www.linkedin.com" target="_blank" class="text-white fs-5"><i
-                            class="bi bi-linkedin"></i></a>
-                    <a href="https://www.instagram.com" target="_blank" class="text-white fs-5"><i
-                            class="bi bi-instagram"></i></a>
+        </a>
+
+
+        <!-- =================================================
+             MOBILE TOGGLE
+        ================================================== -->
+
+        <button
+            class="navbar-toggler ark-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#arkNavbarContent"
+            aria-controls="arkNavbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- =================================================
+             NAVIGATION
+        ================================================== -->
+
+        <div
+            class="collapse navbar-collapse"
+            id="arkNavbarContent">
+
+
+            <!-- MAIN LINKS -->
+
+            <ul class="navbar-nav mx-auto align-items-lg-center mb-3 mb-lg-0">
+
+
+                <!-- HOME -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link ark-nav-link active"
+                        href="index.php">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+                <!-- ELLDY -->
+
+                <li class="nav-item dropdown">
+
+                    <a
+                        class="nav-link ark-nav-link dropdown-toggle"
+                        href="#"
+                        id="elldyDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                        Elldy
+
+                    </a>
+
+
+                    <ul
+                        class="dropdown-menu ark-dropdown"
+                        aria-labelledby="elldyDropdown">
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="https://elldy.com/"
+                                target="_blank">
+
+                                <i class="bi bi-stars"></i>
+
+                                <span>
+
+                                    <strong>
+                                        Elldy DI & BI
+                                    </strong>
+
+                                    <small>
+                                        Data Intelligence & Business Intelligence
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="https://elldy.com/docs/elldy-brick/"
+                                target="_blank">
+
+                                <i class="bi bi-hdd-network"></i>
+
+                                <span>
+
+                                    <strong>
+                                        Elldy Bricks
+                                    </strong>
+
+                                    <small>
+                                        Connect private data & systems
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="https://elldy.com/documentation/"
+                                target="_blank">
+
+                                <i class="bi bi-book"></i>
+
+                                <span>
+
+                                    <strong>
+                                        Documentation
+                                    </strong>
+
+                                    <small>
+                                        Explore the Elldy platform
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+                <!-- CRM -->
+
+                <li class="nav-item dropdown">
+
+                    <a
+                        class="nav-link ark-nav-link dropdown-toggle"
+                        href="#"
+                        id="crmDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                        CRM
+
+                    </a>
+
+
+                    <ul
+                        class="dropdown-menu ark-dropdown"
+                        aria-labelledby="crmDropdown">
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="https://connect.arklytics.in/"
+                                target="_blank">
+
+                                <i class="bi bi-diagram-3"></i>
+
+                                <span>
+
+                                    <strong>
+                                        CRM Solutions
+                                    </strong>
+
+                                    <small>
+                                        Manage customers & operations
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="https://connect.arklytics.in/"
+                                target="_blank">
+
+                                <i class="bi bi-grid-1x2"></i>
+
+                                <span>
+
+                                    <strong>
+                                        CRM Services
+                                    </strong>
+
+                                    <small>
+                                        Business-focused CRM solutions
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                class="dropdown-item"
+                                href="contact.php">
+
+                                <i class="bi bi-headset"></i>
+
+                                <span>
+
+                                    <strong>
+                                        Talk to Us
+                                    </strong>
+
+                                    <small>
+                                        Discuss your CRM requirements
+                                    </small>
+
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+                <!-- ACADEMY -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link ark-nav-link"
+                        href="https://academy.elldy.com/"
+                        target="_blank">
+
+                        Academy
+
+                    </a>
+
+                </li>
+
+                <!-- Solutions -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link ark-nav-link"
+                        href="solutions.php">
+
+                        Solutions
+
+                    </a>
+
+                </li>
+
+
+                <!-- INSIGHTS -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link ark-nav-link"
+                        href="insight.php">
+
+                        Insights
+
+                    </a>
+
+                </li>
+
+
+                <!-- CONTACT -->
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link ark-nav-link"
+                        href="contact.php">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+
+            <!-- =================================================
+                 RIGHT SIDE
+            ================================================== -->
+
+            <div class="ark-navbar-right">
+
+
+                <!-- SOCIAL ICONS -->
+
+                <div class="ark-socials">
+
+
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        aria-label="LinkedIn">
+
+                        <i class="bi bi-linkedin"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="Instagram">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="Facebook">
+
+                        <i class="bi bi-facebook"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.whatsapp.com/"
+                        target="_blank"
+                        aria-label="WhatsApp">
+
+                        <i class="bi bi-whatsapp"></i>
+
+                    </a>
+
+
                 </div>
+
+
+                <!-- LOGIN -->
+
+                <a
+                    href="https://elldy.com/login/"
+                    target="_blank"
+                    class="ark-login">
+
+                    Login
+
+                </a>
+
+
+                <!-- START FREE -->
+
+                <a
+                    href="https://elldy.com/signup/"
+                    target="_blank"
+                    class="ark-start-btn">
+
+                    Start Free
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+
             </div>
+
         </div>
-    </nav>
+
+    </div>
+
+</nav>
