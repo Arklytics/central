@@ -10,9 +10,10 @@
         <a class="navbar-brand ark-brand" href="index.php">
 
             <img
-                src="images/logo.png"
+                src="images/arklytics-labs-logo.png"
                 alt="Arklytics"
-                class="ark-logo">
+                class="ark-logo"
+                style="width: 220px; height: auto;">
 
         </a>
 
